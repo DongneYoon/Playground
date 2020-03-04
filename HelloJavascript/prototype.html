@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>test</title>
+    <script>
+        
+        // var person = {};
+        // person.name = 'dongne';
+        // person.introduce = function(){
+        //     return 'My name is '+ this.name;
+        // }
+
+        // var person = {
+        //     'name' : 'myoungjune',
+        //     'introduce' : function(){
+        //         return 'My name is ' + this.name;
+        //     }
+        // }
+
+        function Person(){}
+        
+        var p = new Person();
+
+        p.name = 'hello';
+        p.introduce = function(){
+            return 'my name is ' + this.name;
+        }
+
+        document.write(p.introduce());
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>
